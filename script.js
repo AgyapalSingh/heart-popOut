@@ -99,17 +99,24 @@ document.addEventListener("DOMContentLoaded", () => {
         opacity: 1,
         ease: "power4.out",
       })
-      .to(gree, {
-        duration: 3,
-        opacity: 1,
-        scale: 2,
-        zIndex: 10,
-      })
+
       .to(heart, {
-        opacity: 0,
-      })
-      .to(gree, {
         opacity: 0,
       });
   });
+
+  const titleTimeline = gsap.timeline();
+
+  titleTimeline
+    .to(gree, {
+      duration: 3,
+      opacity: 1,
+      scale: 2,
+      zIndex: 10,
+    })
+    .to(gree, {
+      delay: 2,
+      duration: 2,
+      opacity: 0,
+    });
 });
