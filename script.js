@@ -100,19 +100,15 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power4.out",
       })
       .to(gree, {
-        delay: 3,
         duration: 3,
         opacity: 1,
-        scale: 6,
+        scale: 2,
         zIndex: 10,
-        scrub: 1,
       })
       .to(heart, {
-        delay: 3,
         opacity: 0,
       })
       .to(gree, {
-        delay: 3,
         opacity: 0,
       });
   });

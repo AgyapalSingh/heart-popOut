@@ -69,6 +69,15 @@
 .HP{
   opacity: 0;
   font-size: 14px;
+  color: white;
+  background: radial-gradient(
+    circle,
+    rgba(251, 205, 207, 1) 0%,
+    rgba(244, 149, 157, 1) 75%
+  );
+  padding: 20px 10px;
+  border-radius: 5px;
+
 }
 
 .heart {
@@ -81,4 +90,22 @@
   opacity: 0;
   pointer-events: none;
   animation: popOut 3s ease-out forwards;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .val-div1 {
+    flex-direction: column;
+  }
+  .val-img {
+    width: 100%;
+  }
+  .val-img-content {
+    width: 100%;
+  }
+
+  #rainButton {
+    top: 85%;
+    left: 75%;
+  }
 }
