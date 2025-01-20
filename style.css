@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 .val-container {
   background: radial-gradient(
@@ -11,7 +14,6 @@
     rgba(251, 205, 207, 1) 0%,
     rgba(244, 149, 157, 1) 75%
   );
-  
 }
 
 .val-div1 {
@@ -54,8 +56,6 @@
   font-size: 24px;
 }
 
-
-
 .heart-container {
   position: fixed;
   top: 50%;
@@ -66,18 +66,15 @@
   align-items: center;
 }
 
-.HP{
+.HP {
   opacity: 0;
   font-size: 14px;
   color: white;
-  background: radial-gradient(
-    circle,
-    rgba(251, 205, 207, 1) 0%,
-    rgba(244, 149, 157, 1) 75%
-  );
-  padding: 20px 10px;
-  border-radius: 5px;
-
+  background: #C62D54;
+  font-family: "Poppins";
+  font-weight: 300;
+  padding: 10px 10px;
+  border-radius: 3px;
 }
 
 .heart {
@@ -91,7 +88,6 @@
   pointer-events: none;
   animation: popOut 3s ease-out forwards;
 }
-
 
 @media only screen and (max-width: 768px) {
   .val-div1 {
