@@ -109,14 +109,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   titleTimeline
     .to(gree, {
-      duration: 3,
+      duration: 2,
       opacity: 1,
       scale: 2,
       zIndex: 10,
     })
     .to(gree, {
-      delay: 2,
-      duration: 2,
+      delay: 3,
+      duration: 1,
       opacity: 0,
     });
 });
