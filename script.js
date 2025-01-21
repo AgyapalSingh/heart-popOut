@@ -67,8 +67,9 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const heartContainer = document.querySelector(".heart-container");
-  const gree = document.querySelector(".HP");
-  const numberOfHearts = 50;
+  const greetDiv = document.querySelector(".val-message")
+  const greet = document.querySelector(".val-mess-cont");
+  const numberOfHearts = 25;
 
   // Create heart elements
   for (let i = 0; i < numberOfHearts; i++) {
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     timeline
       .to(heart, {
-        duration: 2 + Math.random() * 3,
+        duration:  Math.random() * 3,
         x: startX,
         y: startY,
         opacity: 1,
@@ -108,15 +109,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const titleTimeline = gsap.timeline();
 
+
   titleTimeline
-    .to(gree, {
-      duration: 2,
+    .to(greetDiv, {
+      top: "47vh",
+      duration: 1,
       opacity: 1,
       scale: 2,
       zIndex: 10,
+      ease: "power4.out",
     })
-    .to(gree, {
-      delay: 3,
+    .to(greet, {
+      delay: 1,
       duration: 1,
       opacity: 0,
     });
