@@ -117,7 +117,6 @@ document.addEventListener("DOMContentLoaded", () => {
       opacity: 1,
       scale: 2,
       zIndex: 10,
-      ease: "power4.out",
     })
     .to(greet, {
       delay: 1,
