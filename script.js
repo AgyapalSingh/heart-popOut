@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         x: startX,
         y: startY,
         opacity: 1,
-        scale: 2,
+        scale: 3,
         ease: "power4.out",
       })
 
@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
       zIndex: 10,
     })
     .to(greet, {
-      delay: 1,
-      duration: 1,
+      delay: 0.5,
+      duration: 1.5,
       opacity: 0,
     });
 });
