@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         x: startX,
         y: startY,
         opacity: 1,
-        scale: 3,
+        scale: 2,
         ease: "power4.out",
       })
 
