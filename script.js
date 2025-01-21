@@ -113,14 +113,14 @@ document.addEventListener("DOMContentLoaded", () => {
   titleTimeline
     .to(greetDiv, {
       top: "47vh",
-      duration: 1,
+      duration: 1.5,
       opacity: 1,
       scale: 2,
       zIndex: 10,
     })
     .to(greet, {
-      delay: 0.5,
-      duration: 1.5,
+      delay: 1,
+      duration: 1,
       opacity: 0,
     });
 });
