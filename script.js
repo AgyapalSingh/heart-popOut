@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   titleTimeline
     .to(greetDiv, {
-      top: "47vh",
+      top: "48vh",
       duration: 1.5,
       opacity: 1,
       scale: 2,
