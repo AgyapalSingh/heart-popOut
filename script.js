@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const heartContainer = document.querySelector(".heart-container");
   const greetDiv = document.querySelector(".val-message")
   const greet = document.querySelector(".val-mess-cont");
-  const numberOfHearts = 25;
+  const numberOfHearts = 35;
 
   // Create heart elements
   for (let i = 0; i < numberOfHearts; i++) {
